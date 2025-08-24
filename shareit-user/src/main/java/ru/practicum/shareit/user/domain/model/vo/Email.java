@@ -13,8 +13,4 @@ public record Email(String value) {
       throw new IllegalArgumentException("Invalid email format");
     }
   }
-
-  public String asString() {
-    return value;
-  }
 }
