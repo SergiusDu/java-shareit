@@ -23,7 +23,8 @@
             <dependency>
                 <groupId>org.springframework.modulith</groupId>
                 <artifactId>spring-modulith-bom</artifactId>
-                <version>1.4.2</version> <type>pom</type>
+                <version>1.4.2</version>
+                <type>pom</type>
                 <scope>import</scope>
             </dependency>
         </dependencies>
@@ -49,11 +50,6 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>ru.practicum</groupId>
-            <artifactId>shareit-common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.modulith</groupId>
             <artifactId>spring-modulith-starter-core</artifactId>
         </dependency>
@@ -68,7 +64,6 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -77,10 +72,6 @@
                 <configuration>
                     <mainClass>ru.practicum.shareit.ShareitAppApplication</mainClass>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
